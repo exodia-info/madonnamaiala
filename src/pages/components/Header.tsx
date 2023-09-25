@@ -2,7 +2,7 @@ import React from 'react'
 import { SignInButton, SignOutButton, useUser } from '@clerk/clerk-react'
 import { useRouter } from 'next/router'
 import { VscAccount } from 'react-icons/vsc'
-import { exodia, exodiaviola } from '../../assets'
+import { exodia, exodiaviola } from '../../../public/assets'
 import Image from 'next/image'
 import Link from 'next/link'
 
