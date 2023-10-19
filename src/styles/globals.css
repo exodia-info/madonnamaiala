@@ -3,8 +3,22 @@
 @tailwind utilities;
 
 
+
 .glass {
     background: linear-gradient(135deg, rgba(148, 163, 184, 0.3), rgba(148, 163, 184, 0.3));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+
 }
+
+/* .contentContainer {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    overscroll-behavior-y: contain;
+    height: 100%;
+}
+
+.contentSection {
+    scroll-snap-align: start;
+    height: 100%;
+} */
